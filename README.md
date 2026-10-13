@@ -4,7 +4,7 @@ Asignatura: Electrónica Digital II - Universidad Nacional de Colombia (2026-2)
 
 ## Integrantes
 - Cristian Camilo Niño Gutierrez
-- Edyson Vargas
+- Edyson fabian Vargas camargo
 - Ana Gabriela Caicedo Cangrejo
 
 ## 📋 Tabla de Contenidos
