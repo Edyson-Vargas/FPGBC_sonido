@@ -19,7 +19,3 @@ Asignatura: Electrónica Digital II - Universidad Nacional de Colombia (2026-2)
 
 -La siguiente imagen es del TC8002D,el cual es un amplificador de potencia de audio de 3W  
 - <img width="346" height="470" alt="image" src="https://github.com/user-attachments/assets/71b1cda5-2a28-4da0-b380-01cf753c8818" />
-
-
-## Esquematico TC8002D
-<img width="624" height="455" alt="image" src="https://github.com/user-attachments/assets/b3676836-b2c5-4d30-a130-49cc913eed2b" />
