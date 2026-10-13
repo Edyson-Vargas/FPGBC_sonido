@@ -1,6 +1,6 @@
 # FPGBC_sonido
 Módulo de Sonido para la FPGBC (Game Boy Color)
-Asignatura: Electrónica Digital II - Universidad Nacional de Colombia (2026-2)[cite: 3]
+Asignatura: Electrónica Digital II - Universidad Nacional de Colombia (2026-2)
 
 ## Integrantes
 - Cristian Camilo Niño Gutierrez
