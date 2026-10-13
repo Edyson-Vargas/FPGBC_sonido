@@ -13,8 +13,13 @@ Asignatura: Electrónica Digital II - Universidad Nacional de Colombia (2026-2)
 - [ ] Integración en la FPGA.
 
 ## Imagenes FPGA y TC8002D
+
+-La FPGA con la que se trabajara en este apartado es de la marca GOWIN, como se puede observar en la siguiente imagen
 - <img width="346" height="470" alt="image" src="https://github.com/user-attachments/assets/71b1cda5-2a28-4da0-b380-01cf753c8818" />
+
+-La siguiente imagen es del TC8002D,el cual es un amplificador de potencia de audio de 3W  
 <img width="346" height="470" alt="image" src="https://github.com/user-attachments/assets/061efad7-c171-4c31-bc70-61e463c7ff36" /> 
+
 
 ## Esquematico TC8002D
 <img width="624" height="455" alt="image" src="https://github.com/user-attachments/assets/b3676836-b2c5-4d30-a130-49cc913eed2b" />
