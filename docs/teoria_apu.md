@@ -1,3 +1,4 @@
+
 # Teoría de la APU (Audio Processing Unit) - Game Boy Color
 
 ## 1. Arquitectura General del Sonido
@@ -24,3 +25,4 @@ La APU de la Game Boy genera sonido de manera digital mediante 4 canales indepen
 ---
 
 ## 3. Diagrama del Esquemático
+<img width="1202" height="1001" alt="b5aa53dc-4c1e-4104-bc7b-0b5720a0a706" src="https://github.com/user-attachments/assets/07712ac2-0369-49b9-8c12-c34f35efc1a0" />
