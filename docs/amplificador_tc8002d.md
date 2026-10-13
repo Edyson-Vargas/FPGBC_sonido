@@ -10,6 +10,9 @@
 | :--- | :--- | :--- |
 | **Hoja de datos TC8002D** | Pinout, ganancias externas, modo de apagado (*shutdown*) y curvas de distorsión | [PDF](https://www.alldatasheet.com/html-pdf/1147207/FUMAN/TC8002D/174/1/TC8002D.html) |
 
+## Esquematico TC8002D
+<img width="624" height="455" alt="image" src="https://github.com/user-attachments/assets/b3676836-b2c5-4d30-a130-49cc913eed2b" />
+
 ## Conexiones y Pines Involucrados
 | Pin del TC8002D | Nombre / Función | Conectado a / Descripción |
 | :--- | :--- | :--- |
