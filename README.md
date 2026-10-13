@@ -14,7 +14,7 @@ Asignatura: Electrónica Digital II - Universidad Nacional de Colombia (2026-2)
 
 ## Imagenes FPGA y TC8002D
 
--La FPGA con la que se trabajara en este apartado es de la marca GOWIN, como se puede observar en la siguiente imagen
+-La FPGA con la que se trabajara en este apartado es de la marca GOWIN, como se puede observar 
 <img width="346" height="470" alt="image" src="https://github.com/user-attachments/assets/061efad7-c171-4c31-bc70-61e463c7ff36" /> 
 
 -La siguiente imagen es del TC8002D,el cual es un amplificador de potencia de audio de 3W  
