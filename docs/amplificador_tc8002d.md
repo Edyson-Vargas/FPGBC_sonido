@@ -24,3 +24,21 @@
 | Pin 6 | **VDD** | Alimentación (3.3V o 5V) |
 | Pin 7 | **GND** | Tierra |
 | Pin 8 | **VO2** | Salida diferencial hacia el parlante (-) |
+
+Descripción Funcional y Estrategia de Integración con la FPGA
+
+A diferencia de los componentes puramente digitales del SoC (como los registros de la APU o el procesador `femtoRV32`), la etapa de salida hacia el altavoz involucra una transición de señales digitales a analógicas.
+
+### Naturaleza del Circuito Integrado
+El **TC8002D** es un amplificador de audio mono de **Clase AB** diseñado para dispositivos portátiles[cite: 2]. Es importante resaltar que **este circuito integrado no es un dispositivo programable digitalmente**; no posee registros internos ni protocolos de comunicación (como I2C/SPI), sino que opera de manera estrictamente analógica para amplificar la potencia hacia el altavoz.
+
+### Modulación por Ancho de Pulsos (PWM) y Filtrado
+Dado que la FPGA opera con lógica digital (0V y 3.3V) y carece de un Conversor Digital-Analógico (DAC) nativo, la síntesis de audio se ejecuta mediante **PWM**:
+1. **Mezclador APU:** La lógica digital combina los canales de la FPGBC.
+2. **Generador PWM:** Un contador interno modula el ciclo de trabajo (*duty cycle*) en función de la muestra de audio.
+3. **Filtro RC:** La señal digital rápida pasa por una red de resistencias y condensadores que la convierte en una onda de voltaje analógica continua.
+
+### Control Lógico del Pin de *Shutdown* (Pin 1)
+Aunque el amplificador es analógico, cuenta con el pin digital **SD (Shutdown)**[cite: 1]:
+* **Control desde la FPGA:** Este pin se vincula a un bit de control dentro de los registros gestionados por la APU en el SoC LiteX.
+* **Operación:** Si el firmware escribe un `0`, el amplificador se desactiva (`SD = LOW`) para ahorrar energía y evitar chasquidos al encender/apagar; al escribir un `1`, se habilita (`SD = HIGH`) para reproducir el audio con normalidad.
