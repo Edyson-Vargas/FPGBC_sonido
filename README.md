@@ -22,7 +22,8 @@ Este repositorio contiene el diseño, la documentación teórica y la implementa
 ---
 
 ## 2. Arquitectura y Diagrama de Bloques 
-<img width="1202" height="1001" alt="b5aa53dc-4c1e-4104-bc7b-0b5720a0a706" src="https://github.com/user-attachments/assets/64b72848-0c45-4774-9e23-929fea74eb06" />
+<img width="991" height="450" alt="image" src="https://github.com/user-attachments/assets/cf7ef2f0-11ed-4c4e-9d8d-5b97cb28dc2d" />
+
 
 ---
 
